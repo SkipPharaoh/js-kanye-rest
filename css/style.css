@@ -1,3 +1,37 @@
-h1 {
-  background: chartreuse;
+body {
+  background-image: url("https://metro.co.uk/wp-content/uploads/2013/09/kanye-west.png");
+  /* background-size: inherit; */
+  background-repeat: no-repeat;
+  background-position:center top;
+}
+#container {
+  border: 2px solid rgb(227, 252, 6);
+  background-color: royalblue;
+  color: yellow;
+  font-size: 30px;
+}
+.quote {
+  background: rgba(119, 136, 153, 0.76);
+  /* height: 100px; */
+  /* margin-top: 100px; */
+  /* padding-top: 55px; */
+  color: red;
+}
+.area {
+  align-content: center;
+  text-align: center;
+}
+.button {
+  font-size: 40px;
+  background-color: gold;
+  border-color: rgba(21, 0, 255);
+  color: black;
+  width: 50%;
+  align-content: center;
+  height: 50px;
+}
+.button:hover {
+  background-color: whitesmoke;
+  color: green;
+  cursor: pointer;
 }
